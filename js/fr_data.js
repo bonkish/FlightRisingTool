@@ -16,7 +16,6 @@ FRData.GenderList = [
 FRData.ModernPrimaryGeneList = [
     ['Basic', 'Plentiful', '10000 T'],
 
-    ['Bar', 'Common', '250000 T'],
     ['Clown', 'Common', '175000 T'],
     ['Fade', 'Common', '125000 T'],
     ['Falcon', 'Common', '170000 T'],
@@ -29,24 +28,27 @@ FRData.ModernPrimaryGeneList = [
     ['Tapir', 'Common', '185000 T'],
     ['Tiger', 'Common', '135000 T'],
 
+    ['Bar', 'Uncommon', '250000 T'],
+    ['Boa', 'Uncommon', '250000 T'],
     ['Cherub', 'Uncommon', '185000 T'],
-    ['Cider', 'Uncommon', '185000 T'],
+    ['Cinder', 'Uncommon', '185000 T'],
     ['Flaunt', 'Uncommon', ''],
     ['Giraffe', 'Uncommon', '225000 T'],
     ['Jaguar', 'Uncommon', '250000 T'],
     ['Jupiter', 'Uncommon', '230000 T'],
     ['Lionfish', 'Uncommon', '230000 T'],
     ['Mosaic', 'Uncommon', '300000 T'],
-    ['Python', 'Uncommon', 'The Coliseum'],
     ['Ribbon', 'Uncommon', ''],
     ['Ripple', 'Uncommon', '250000 T'],
     ['Vipera', 'Uncommon', '235000 T'],
 
     ['Boulder', 'Limited', ''],
+    ['Chrysocolla', 'Limited', ''],
     ['Fern', 'Limited', ''],
     ['Ground', 'Limited', ''],
     ['Pinstripe', 'Limited', '100000 T (Baldwin)'],
     ['Poison', 'Limited', '100000 T (Baldwin)'],
+    ['Python', 'Uncommon', 'The Coliseum'],
     ['Skink', 'Limited', '95000 T (Baldwin)'],
     ['Slime', 'Limited', '100000 T (Baldwin)'],
     ['Stitched', 'Limited', '100000 T (Baldwin)'],
@@ -57,6 +59,7 @@ FRData.ModernPrimaryGeneList = [
     ['Iridescent', 'Rare', '1500 G'],
     ['Metallic', 'Rare', '1500 G'],
     ['Petals', 'Rare', '1500 G'],
+    ['Petrified', 'Rare', '1500 G'],
     ['Pharaoh', 'Rare', ''],
     ['Starmap', 'Rare', '1500 G'],
     ['Wasp', 'Rare', '1500 G']
@@ -68,6 +71,7 @@ FRData.ModernSecondaryGeneList = [
     ['Blend', 'Common', '100000 T'],
     ['Clouded', 'Common', '120000 T'],
     ['Edged', 'Common', '120000 T'],
+    ['Eye Spots', 'Common', '120000 T'],
     ['Freckle', 'Common', '90000 T'],
     ['Marbled', 'Common', '130000 T'],
     ['Paint', 'Common', '165000 T'],
@@ -81,18 +85,19 @@ FRData.ModernSecondaryGeneList = [
     ['Current', 'Uncommon', '165000 T'],
     ['Daub', 'Uncommon', '165000 T'],
     ['Eel', 'Uncommon', ''],
-    ['EyeSpots', 'Uncommon', '110000 T'],
     ['Flair', 'Uncommon', ''],
     ['Hex', 'Uncommon', '160000 T'],
     ['Hypnotic', 'Uncommon', '185000 T'],
-    ['Morph', 'Uncommon', 'The Coliseum'],
     ['Noxtide', 'Uncommon', '170000 T'],
     ['Rosette', 'Uncommon', '185000 T'],
+    ['Saddle', 'Uncommon', ''],
     ['Saturn', 'Uncommon', '160000 T'],
     ['Seraph', 'Uncommon', '125000 T'],
 
     ['Fissure', 'Limited', ''],
     ['Foam', 'Limited', ''],
+    ['Malachite', 'Limited', ''],
+    ['Morph', 'Limited', ''],
     ['Myrid', 'Limited', ''],
     ['Paisley', 'Limited', ''],
     ['Patchwork', 'Limited', '100000 T (Baldwin)'],
@@ -100,6 +105,8 @@ FRData.ModernSecondaryGeneList = [
     ['Spinner', 'Limited', '95000 T (Baldwin)'],
     ['Toxin', 'Limited', '100000 T (Baldwin)'],
     ['Trail', 'Limited', '100000 T (Baldwin)'],
+    ['Weaver', 'Limited', ''],
+
 
     ['Alloy', 'Rare', '1200 G'],
     ['Bee', 'Rare', '1200 G'],
@@ -107,6 +114,7 @@ FRData.ModernSecondaryGeneList = [
     ['Constellation', 'Rare', '1200 G'],
     ['Facet', 'Rare', '1200 G'],
     ['Jester', 'Rare', ''],
+    ['Lode', 'Rare', ''],
     ['Sarcophagus', 'Rare', '1200 G'],
     ['Shimmer', 'Rare', '1200 G']
 ]
@@ -115,18 +123,18 @@ FRData.ModernTertiaryGeneList = [
     ['Basic', 'Plentiful', '10000 T'],
 
     ['Contour', 'Common', '150000 T'],
-    ['Peacock-Gene', 'Common', '150000 T'],
+    ['Peacock', 'Common', '150000 T'],
     ['Points', 'Common', '130000 T'],
     ['Thylacine', 'Common', '155000 T'],
     ['Underbelly', 'Common', '150000 T'],
 
     ['Crackle', 'Uncommon', '190000 T'],
-    ['Flecks', 'Uncommon', ''],
     ['Gembond', 'Uncommon', '200000 T'],
     ['Ghost', 'Uncommon', '160000 T'],
     ['Lace', 'Uncommon', '155000 T'],
     ['Okapi', 'Uncommon', '190000 T'],
     ['Ringlets', 'Uncommon', '155000 T'],
+    ['Runes', 'Uncommon', '190000 T'],
     ['Smoke-Gene', 'Uncommon', '190000 T'],
     ['Sparkle', 'Uncommon', ''],
     ['Spines', 'Uncommon', '190000 T'],
@@ -136,7 +144,6 @@ FRData.ModernTertiaryGeneList = [
     ['Firefly', 'Limited', "Swipp's Swap Stand"],
     ['Keel', 'Limited', '100000 T (Baldwin)'],
     ['Polkadot', 'Limited', ''],
-    ['Runes', 'Limited', '190000 T'],
     ['Scales', 'Limited', '100000 T (Baldwin)'],
     ['Smirch', 'Limited', '200000 T'],
     ['Veined', 'Limited', '100000 T (Baldwin)'],
@@ -149,6 +156,7 @@ FRData.ModernTertiaryGeneList = [
     ['Opal', 'Rare', '1200 G'],
     ['Soap', 'Rare', ''],
     ['Stained', 'Rare', '1200 G']
+    ['Wish', 'Rare', '1200 G']
 ]
 
 FRData.GaolerPrimaryGeneList = [
